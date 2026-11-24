@@ -1,0 +1,15 @@
+{
+  "name": "navi-mumbai-3d",
+  "version": "0.1.0",
+  "description": "3D Open-World Engine - Nerul & Seawoods sectors",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "three": "^0.170.0",
+    "zustand": "^5.0.0"
+  }
+}

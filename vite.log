@@ -1,0 +1,33 @@
+
+> project-os-client@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v6.4.6[39m  [2mready in [0m[1m408[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m7:10:38 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m7:10:39 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.tsx, /src/index.css[22m
+[2m7:11:58 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.tsx, /src/index.css[22m
+[2m7:23:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m7:23:03 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/components/projects/CreateProjectModal.tsx, /src/pages/ProgressIntelligence.tsx, /src/components/filesystem/FolderDropzone.tsx, /src/components/filesystem/FolderExplorerModal.tsx[22m
+[2m7:25:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AiPlanner.tsx, /src/index.css[22m
+[2m7:25:05 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AiAssistant.tsx, /src/index.css[22m
+[2m7:25:06 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m7:35:26 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AiPlanner.tsx, /src/index.css[22m
+[2m7:40:13 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/progress/scan/fc8b5d48-b2b0-4519-b02b-0d30f0fe7b27[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+[2m7:41:32 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m7:41:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AiPlanner.tsx, /src/index.css[22m
+[2m7:41:34 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AiAssistant.tsx, /src/index.css[22m
+[2m8:45:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m8:46:51 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/components/projects/CreateProjectModal.tsx, /src/pages/ProgressIntelligence.tsx, /src/components/filesystem/FolderDropzone.tsx, /src/components/filesystem/FolderExplorerModal.tsx, /src/pages/AiPlanner.tsx, /src/pages/AiAssistant.tsx[22m
+[2m8:47:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/components/projects/CreateProjectModal.tsx, /src/pages/ProgressIntelligence.tsx, /src/components/filesystem/FolderDropzone.tsx, /src/components/filesystem/FolderExplorerModal.tsx, /src/pages/AiPlanner.tsx, /src/pages/AiAssistant.tsx[22m
+[2m8:49:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ArchitectureHld.tsx, /src/index.css[22m
+[2m8:49:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.tsx, /src/index.css[22m
+[2m8:49:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m8:59:51 pm[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/ai/hld/fc8b5d48-b2b0-4519-b02b-0d30f0fe7b27/generate[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)

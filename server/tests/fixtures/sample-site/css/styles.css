@@ -1,0 +1,77 @@
+:root {
+  --ink: #101828;
+  --paper: #ffffff;
+  --accent: #0f766e;
+  --space: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space);
+}
+
+.hero,
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: calc(var(--space) * 2) var(--space);
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  max-width: 18ch;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.contact {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 32rem;
+}
+
+.contact input:focus-visible,
+.contact textarea:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .services-preview,
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
