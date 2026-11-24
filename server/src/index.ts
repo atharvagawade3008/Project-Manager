@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { createApp } from './app.js';
 
 const parsedPort = Number.parseInt(process.env.PORT || '', 10);
